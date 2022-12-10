@@ -35,6 +35,6 @@ fi
 # Copy the script over to the user and execute it in his name
 cp ./setup-as-user.sh /home/$user_name
 chown username /home/$user_name/setup-as-user.sh
-su -c ./setup-as-user.sh $user_name
+su -c /home/$user_name/setup-as-user.sh $user_name
 
 echo "setup complete"
