@@ -14,4 +14,7 @@ apt-get upgrade -y
 apt-get install git -y
 ```
 
-
+3. Clone this repository
+```
+git clone https://github.com/stho32/GenericServerSetup
+```
