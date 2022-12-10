@@ -31,3 +31,7 @@ if grep -q "^PermitRootLogin yes" /etc/ssh/sshd_config; then
   # Restart the ssh service to apply the changes
   sudo service ssh restart
 fi
+
+sudo -u $user_name ./setup-as-user.sh
+
+echo "setup complete"
