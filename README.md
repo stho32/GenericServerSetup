@@ -9,10 +9,12 @@ apt-get update
 apt-get upgrade -y
 ```
 
-2. Setup git
+2. Setup tools
 ```
 apt-get install git -y
+apt-get install ufw -y
 ```
+
 
 3. Clone this repository
 ```
